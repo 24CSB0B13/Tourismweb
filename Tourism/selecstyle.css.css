@@ -1,0 +1,173 @@
+body{
+    background-color: black;
+    color:aqua;
+}
+.bg{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.nav{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+a,i{
+    text-decoration: none;
+    color: white;
+}
+.pin{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+.board{
+    margin-top: 50px;
+    margin-left: 80px;
+    background-color:black;
+    background-size: cover;
+    border:solid 7px aqua;
+    height: 450px;
+    width: 1100px;
+    border-radius: 45px;
+}
+.sel{
+    font-size: 43px;
+    color:white;
+}
+.box{
+    height:150px;
+    width:150px;
+    font-size: 800%;
+}
+/* .i{
+    font-size: 20%;
+} */
+.fir{
+    width:100%;
+    height: 50%;
+}
+.sec{
+    width:100%;
+    height: 50%;
+}
+.fir{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cir{
+    height: 180px;
+    width: 180px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.i{
+    font-size: 1000%;
+    color:pink;
+}
+.c1{
+    background-image: url("h111.jpg");
+    background-size: cover;
+}
+.c2{
+    background-image: url("h112.jpg");
+    background-size: cover;
+}
+.c3{
+    background-image: url("h113.jpg");
+    background-size: cover;
+}
+.c4{
+    background-image: url("h114.jpg");
+    background-size: cover;
+}
+.c5{
+    background-image: url("h115.jpg");
+    background-size: cover;
+}
+.c1:hover,.c2:hover,.c3:hover,.c4:hover,.c5:hover{
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px aqua;
+}
+@keyframes animation1{
+    0%{
+        
+    }
+    35%{
+        transform: translate(650px);
+    }
+    /* 50%{
+        transform: translateY(300px);
+    } */
+    85%{
+        transform: translate(-650px);
+    }
+}
+/* .c1{
+    margin-top: 21px;
+    margin-left: 33px;
+    background-image: url("h111.jpg");
+    background-size: cover;
+}
+.c2{
+    margin-top: 10px;
+    margin-left: 43px;
+    background-image: url("h112.jpg");
+    background-size: cover;
+}
+.c3{ 
+    margin-top: 25px;
+    margin-left: 68px;
+    background-image: url("h113.jpg");
+    background-size: cover;
+}
+.c4{
+    margin-top: 60px;
+    margin-left: 15px;
+    background-image: url("h114.jpg");
+    background-size: cover;
+}
+.c5{
+    margin-top: -43px;
+    margin-left: 49px;
+    background-image: url("h115.jpg");
+    background-size: cover;
+} */
+/* .c1:hover,.c2:hover,.c3:hover,.c4:hover,.c5:hover{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    box-shadow: 0 0 80px yellow;
+} */
+.home,.back{
+    a,i{
+        color:aqua;
+    }
+}
+.home:hover,.back:hover{
+    a,i{
+        color:white;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        box-shadow: 0 0 20px aqua;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+}
+.sel{
+    color: aqua;
+}

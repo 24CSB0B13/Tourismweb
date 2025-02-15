@@ -1,0 +1,98 @@
+body{
+    background-image: url("formbg.jpg");
+    background-position: fixed;
+    background-size: cover;
+    color:white;
+}
+h1{
+    color:white;
+    text-align:center;
+}
+h2{
+    color:white;
+    position: relative;
+    left:100px;
+}
+h3{
+    margin-left: 180px;
+}
+.add{
+    position: relative;
+    left:100px;
+}
+.name,.email{
+    color:white;
+}
+p{
+    display:inline-block;
+    color:rgb(192, 197, 205);
+}
+.namebox{
+    height:28px;
+    width:265px;
+}
+.timebox{
+    height:28px;
+    width:105px;
+}
+.time{
+    height:28px;
+    width:60px;
+}
+.namep{
+    margin-right:216px;
+}
+.namesep{
+    margin-top:5px;
+}
+.div1,.div2,.div5,.div6{
+    display:flex;
+    justify-content: space-evenly;
+}
+.div4{
+    display:flex;
+    justify-content: space-evenly;
+}
+.m33{
+    height:28px;
+    width:355px;
+}
+.bigbl{
+    height:28px;
+    width:1000px;
+}
+.big{
+    margin-left:100px;
+}
+.div7 input{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.some{
+    margin-left: 150px;
+}
+.div8{
+    margin-left:180px;
+}
+textarea{
+    width:900px;
+    height:220px;
+}
+.div9{
+    display:flex;
+    justify-content: space-evenly;
+}
+a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.div10{
+    margin-left: 10px;
+}
+.div0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

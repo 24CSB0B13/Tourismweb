@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    color:white;
+    background-color: black;
+}
+.nav{
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    position: fixed;
+}
+.home,.back{
+    a,i{
+        color:aqua;
+        text-decoration: none;
+    }
+}
+.home:hover,.back:hover{
+    a,i{
+        color:white;
+        text-decoration: none;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        box-shadow: 0 0 20px aqua;
+        border-radius: 10px;
+        background-color: aqua;
+    }
+}
+.sel{
+    font-size: 250%;
+    color:aqua;
+}
+.div1,.div2,.div3,.div4{
+    height:400px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.photo{
+    height: 85%;
+    width: 100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+.meg{
+    height: 90%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+.deta{
+    height: 15%;
+    width: 100%;
+    color: white;
+    font-size: 1.8rem;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+.meg:hover{
+    .deta,.photo{
+        width: 105%;
+    } 
+    .deta,.photo{
+        box-shadow: 0 0 60px aqua;
+    }
+    .deta{
+        background-color: white;
+        color: aqua;
+        font-size: 2.5rem;
+    }
+    .photo{
+        height: 95%;
+    }
+    .dsp{
+        font-size: 1.8rem;
+    }
+}
+.p1{
+    background-image: url("pp1.png");
+    background-size: cover;
+}
+.p2{
+    background-image: url("pp2.jpg");
+    background-size: cover;
+}
+.p3{
+    background-image: url("pp3.jpg");
+    background-size: cover;
+}
+.p4{
+    background-image: url("sepio.png");
+    background-size: cover;
+}
+.p5{
+    background-image: url("pp5.jpg");
+    background-size: cover;
+}
+.p6{
+    background-image: url("PP6.jpg  ");
+    background-size: cover;
+}
+.p7{
+    background-image: url("pp7.jpg");
+    background-size: cover;
+}
+.p8{
+    background-image: url("pp8.jpg");
+    background-size: cover;
+}
+.p9{
+    background-image: url("pp9.jpg");
+    background-size: cover;
+}
+.p10{
+    background-image: url("p10.jpg");
+    background-size: cover;
+}
+.p11{
+    background-image: url("p11.jpg");
+    background-size: cover;
+}
+.p12{
+    background-image: url("p12.webp");
+    background-size: cover;
+}
+.dsp{
+    font-size: 1.2rem;
+}
+.foot{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div9{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color:white;
+    height: 20%;
+    width: 10%;
+}
+.div9 a{
+    color: white;
+    text-decoration: none;
+    font-size: default;
+    height: default;
+    width: default;
+}
+.div9 a:hover{
+    background-color: none;
+    box-shadow: 0 0 30px none;
+}

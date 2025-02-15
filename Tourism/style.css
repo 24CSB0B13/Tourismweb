@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    border:border-box;
+}
+.head{
+    height:120px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.circle1,.circle2{
+    height:95px;
+    width: 12%;
+    border-radius: 50%;
+}
+.circle1{
+    background-image: url("atar1.jpg");
+    background-size: cover;
+}
+.circle2{
+    background-image: url("atar2.jpg");
+    background-size: cover;
+}
+.title{
+    height:70px;
+    width:30%;
+    background: linear-gradient(
+        orange,white,green
+    );
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    background-clip: text;
+    color:transparent;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-evenly;
+}
+.home,.gallery,.heritage,.hotel{
+    height: 100%;
+    width: 100%;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ggg{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.gg1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    font-weight: bold;
+    height: 50%;
+    width: 100%;
+}
+.gg2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 150%;
+    height: 50%;
+    width: 100%;
+    color: #666666;
+}
+.k0{
+    height:90%;
+    width: 10%;
+    color:white;
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+.k0:hover{
+    background-color: aqua;
+    box-shadow: 0 0 30px aqua;
+    border-radius: 1.5rem;
+}
+.g{
+    height: 800px;
+    width: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+.rrr0{
+    height: 70px;
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+}
+.mbig{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.a0{
+    height:90%;
+    width:30%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.gs1{
+    height: 65%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.gs2{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 107%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.a0:hover{
+    margin-bottom: 20px;
+}
+.f1{
+    background-image: url("g1.jpg");
+    background-size: cover;
+}
+.f2{
+    background-image: url("g2.webp");
+    background-size: cover;
+}
+.f3{
+    background-image: url("g3.jpg");
+    background-size: cover;
+}
+.f4{
+    background-image: url("g4.jpg");
+    background-size: cover;
+}
+.f5{
+    background-image: url("g5.jpg");
+    background-size: cover;
+}
+.f6{
+    background-image: url("g6.webp");
+    background-size: cover;
+}
+.h99{
+    height: 780px;
+    width: 100%;
+}
+.u6{
+    font-size:33px;
+    font-weight: bold;
+}
+.u7{
+    font-weight: bold;
+    font-size: 27px;
+}
+.u8{
+    font-size: 20px;
+}
+.foot{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div9{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color:white;
+    height: 20%;
+    width: 10%;
+}
+.div9 a{
+    color: white;
+    text-decoration: none;
+    font-size: default;
+    height: default;
+    width: default;
+}
+.div9 a:hover{
+    background-color: none;
+    box-shadow: 0 0 30px none;
+}
